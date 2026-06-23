@@ -25,4 +25,3 @@ print(f"Subtraction: {subtract(a, b)}")
 print(f"Multiplication: {multiply(a, b)}")
 print(f"Division: {divide(a, b)}")
 print(f"Modulo: {modulo(a, b)}")
-
