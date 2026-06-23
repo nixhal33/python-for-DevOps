@@ -1,4 +1,4 @@
-import sys
+import sys,os
 
 a = 10
 b = 20
@@ -40,4 +40,7 @@ elif operation == "divide":
     print(output)
 elif operation == "modulo":
     output = modulo(a, b)
-    print(output)
+    print(output) 
+
+print(os.getenv("password"))
+print(os.getenv("api_token"))
