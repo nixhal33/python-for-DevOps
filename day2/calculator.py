@@ -1,24 +1,24 @@
 a = 10
 b = 20
 
-def add(x, y):
-    return x + y
+def add(a, b):
+    return a + b
 
-def subtract(x, y):
-    return x - y
+def subtract(a, b):
+    return a - b  
 
-def multiply(x, y):
-    return x * y
+def multiply(a, b):
+    return a * b
 
-def divide(x, y):
-    if y == 0:
+def divide(a, b):
+    if b == 0:
         return "Cannot divide by zero"
-    return x / y
+    return a / b
 
-def modulo(x, y):
-    if y == 0:
+def modulo(a, b):
+    if b == 0:
         return "Cannot modulo by zero"
-    return x % y
+    return a % b
 
 print(f"Addition: {add(a, b)}")
 print(f"Subtraction: {subtract(a, b)}")
