@@ -47,3 +47,5 @@ print(os.getenv("password"))
 print(os.getenv("api_token"))
 
 # what i did was first i simply in terminal added : "export password=nixhell" and "export api_token=12345" and then i used the os module to get the values of the environment variables. This output will get an error so also don't forget to use the sys module to pass the arguments in terminal like this: "python3 sys.py 10 add 20" and it will give you the output of 30 and further password and api_token will be printed as well.
+
+# usage of sys is to talk with the terminal and os is to talk with the operating system.
